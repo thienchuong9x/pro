@@ -22,7 +22,7 @@
     NSURL *url= [NSURL fileURLWithPath:path];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
     [_WebviewPDF loadRequest:req ];
-    [_WebviewPDF setScalesPageToFit:YES];
+    [_WebviewPDF setScalesPageToFit:NO];
 }
 
 - (void)didReceiveMemoryWarning {
